@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Assistente virtual da PixelNova. Tire dúvidas sobre games, periféricos, moda gamer e decoração.">
+  <title>Bot PixelNova | Assistente Virtual</title>
+  <link rel="stylesheet" href="styleChatBotEmpresa.css">
+  <script src="scriptChatEmpresa.js" defer></script>
+  <link rel="stylesheet" href="chat-launcher.css">
+  <script src="chatWidget.js" defer></script>
+</head>
+<body>
+  <main class="page-shell">
+    <header class="topbar">
+      <a class="brand" href="index.html" aria-label="Voltar para a PixelNova">
+        <span class="brand-symbol">✦</span>
+        <span>PIXEL<span>NOVA</span></span>
+      </a>
+      <a class="back-link" href="index.html">← Voltar ao site</a>
+    </header>
+
+    <section class="chat-layout" aria-label="Chatbot da PixelNova">
+      <aside class="bot-profile">
+        <div class="profile-orbit orbit-one"></div>
+        <div class="profile-orbit orbit-two"></div>
+
+        <div class="robot" role="img" aria-label="Avatar de robô futurista">
+          <div class="antenna"></div>
+          <div class="robot-head">
+            <div class="ear ear-left"></div>
+            <div class="ear ear-right"></div>
+            <div class="robot-face">
+              <span class="robot-eye"></span>
+              <span class="robot-eye"></span>
+            </div>
+            <div class="robot-mouth"></div>
+          </div>
+          <div class="robot-neck"></div>
+          <div class="robot-body">
+            <div class="robot-core">✦</div>
+            <span class="body-light light-left"></span>
+            <span class="body-light light-right"></span>
+          </div>
+        </div>
+
+        <p class="eyebrow">INTELIGÊNCIA ARTIFICIAL</p>
+        <h1>BOT <span>PIXELNOVA</span></h1>
+        <p class="profile-description">
+          Seu assistente digital para explorar o universo gamer.
+        </p>
+        <div class="status-pill"><span class="status-dot"></span> Sistema pronto para conectar</div>
+        <div class="profile-tags">
+          <span>GAMES</span><span>PERIFÉRICOS</span><span>MODA GAMER</span><span>SETUP</span>
+        </div>
+      </aside>
+
+      <section class="chat-card">
+        <div class="chat-heading">
+          <div>
+            <p class="eyebrow">CENTRAL DE ATENDIMENTO</p>
+            <h2>Converse com o Bot</h2>
+          </div>
+          <div class="connection-icon" aria-hidden="true">⌁</div>
+        </div>
+
+        <div class="api-field">
+          <label for="api-key">Chave da API OpenAI</label>
+          <input id="api-key" type="password" placeholder="Cole sua chave sk-..." autocomplete="off" spellcheck="false">
+          <small>Sua chave é usada nesta sessão e não é salva pelo site.</small>
+        </div>
+
+        <div id="chat-messages" class="chat-messages" aria-live="polite" aria-label="Mensagens da conversa">
+          <div class="message bot-message">
+            <div class="message-avatar">✦</div>
+            <div class="message-content">
+              <span class="sender">BOT PIXELNOVA</span>
+              <p>Olá! Sou o Bot PixelNova. Como posso ajudar no seu universo gamer? 👾</p>
+            </div>
+          </div>
+        </div>
+
+        <form id="chat-form" class="message-form">
+          <label class="sr-only" for="user-message">Digite sua mensagem</label>
+          <textarea id="user-message" rows="2" placeholder="Digite sua dúvida sobre o universo gamer..." required></textarea>
+          <button id="send-button" type="submit">
+            <span>Enviar mensagem</span><span class="send-icon">➤</span>
+          </button>
+        </form>
+        <p id="status-message" class="status-message" role="status">Informe sua chave de API para iniciar a conversa.</p>
+        <p class="security-note">Não compartilhe sua chave de API. Para um site publicado, use um servidor seguro para proteger o token.</p>
+      </section>
+    </section>
+
+    <footer>© 2026 PixelNova · Beyond Play. Beyond Limits.</footer>
+  </main>
+</body>
+</html>

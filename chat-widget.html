@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat NEXOR</title>
+  <link rel="stylesheet" href="chat-widget.css">
+  <script src="scriptChatEmpresa.js" defer></script>
+</head>
+<body>
+  <main class="widget-chat-content">
+    <div class="api-field">
+      <label for="api-key">Chave da API OpenAI</label>
+      <input id="api-key" type="password" placeholder="Cole sua chave sk-..." autocomplete="off" spellcheck="false">
+      <small>A chave é usada nesta sessão e não é salva pelo site.</small>
+    </div>
+    <div id="chat-messages" class="chat-messages" aria-live="polite" aria-label="Mensagens da conversa">
+      <div class="message bot-message"><div class="message-avatar nexor-avatar" role="img" aria-label="Avatar de robô futurista gamer"><span class="nexor-avatar-antenna"></span><span class="nexor-avatar-face"><i></i><i></i><b></b></span></div><div class="message-content"><span class="sender">NEXOR</span><p>Olá! Eu sou o NEXOR, seu copiloto gamer. O que vamos explorar hoje? 🎮</p></div></div>
+    </div>
+    <form id="chat-form" class="message-form">
+      <label class="sr-only" for="user-message">Digite sua mensagem</label>
+      <textarea id="user-message" rows="2" placeholder="Escreva sua mensagem..." required></textarea>
+      <button id="send-button" type="submit"><span>Enviar mensagem</span><span aria-hidden="true">➤</span></button>
+    </form>
+    <p id="status-message" class="status-message" role="status">Informe sua chave de API para iniciar.</p>
+  </main>
+</body>
+</html>
