@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Camiseta preta com estampa gamer neon">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#26324f"/><stop offset=".6" stop-color="#0f1527"/><stop offset="1" stop-color="#070a13"/></radialGradient>
+<radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".75"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6784"/><stop offset=".45" stop-color="#262e42"/><stop offset="1" stop-color="#10141f"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3347"/><stop offset="1" stop-color="#0d111b"/></linearGradient>
+<linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#32e6ff"/><stop offset=".5" stop-color="#6a7bff"/><stop offset="1" stop-color="#c13cff"/></linearGradient>
+<filter id="b4"><feGaussianBlur stdDeviation="4"/></filter><filter id="b10"><feGaussianBlur stdDeviation="10"/></filter><filter id="b20"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<ellipse cx="300" cy="500" rx="230" ry="38" fill="url(#floor)"/>
+
+<g filter="url(#b20)" opacity=".5"><path d="M210 90 Q300 150 390 90 L520 150 L470 260 L420 235 L420 480 L180 480 L180 235 L130 260 L80 150 Z" fill="#32e6ff"/></g>
+<path d="M210 80 Q300 150 390 80 L525 145 L475 265 L425 238 L425 485 L175 485 L175 238 L125 265 L75 145 Z" fill="#171c28" stroke="#05070c" stroke-width="3" stroke-linejoin="round"/>
+<path d="M210 80 Q300 150 390 80 L525 145 L475 265 L425 238 L425 485 L175 485 L175 238 L125 265 L75 145 Z" fill="url(#dark)" opacity=".7"/>
+<path d="M210 80 Q300 150 390 80" fill="none" stroke="#0b0e16" stroke-width="22"/><path d="M215 86 Q300 150 385 86" fill="none" stroke="#3a4560" stroke-width="3" stroke-dasharray="3 3"/>
+<g filter="url(#b4)" fill="#000" opacity=".4"><path d="M180 250 Q230 300 215 480 L190 480Z"/><path d="M420 250 Q370 300 385 480 L410 480Z"/><path d="M250 200 Q300 230 350 200 L350 215 Q300 245 250 215Z"/><path d="M260 390 Q300 410 340 385 L340 395 Q300 425 260 400Z"/></g>
+<g filter="url(#b4)" fill="#fff" opacity=".07"><path d="M215 150 Q260 300 245 470 L270 470 Q285 300 235 150Z"/></g>
+<g transform="translate(300 290)"><g filter="url(#b10)" opacity=".9"><g transform="scale(62)" fill="#32e6ff"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g></g><g transform="scale(54)" fill="url(#rgb)"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g>
+<g fill="#32e6ff"><rect x="-96" y="-44" width="14" height="14"/><rect x="-78" y="-18" width="10" height="10" fill="#a855f7"/><rect x="82" y="30" width="14" height="14" fill="#a855f7"/><rect x="66" y="52" width="10" height="10"/></g>
+<text x="0" y="110" text-anchor="middle" fill="#f4f7ff" font-family="Arial,sans-serif" font-weight="900" font-size="20" letter-spacing="6">LEVEL UP</text></g></svg>

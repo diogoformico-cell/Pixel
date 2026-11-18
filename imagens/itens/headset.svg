@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Headset gamer preto com anéis de luz neon">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#26324f"/><stop offset=".6" stop-color="#0f1527"/><stop offset="1" stop-color="#070a13"/></radialGradient>
+<radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".75"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6784"/><stop offset=".45" stop-color="#262e42"/><stop offset="1" stop-color="#10141f"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3347"/><stop offset="1" stop-color="#0d111b"/></linearGradient>
+<linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#32e6ff"/><stop offset=".5" stop-color="#6a7bff"/><stop offset="1" stop-color="#c13cff"/></linearGradient>
+<filter id="b4"><feGaussianBlur stdDeviation="4"/></filter><filter id="b10"><feGaussianBlur stdDeviation="10"/></filter><filter id="b20"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<ellipse cx="300" cy="500" rx="230" ry="38" fill="url(#floor)"/>
+
+<path d="M130 340 C120 90 480 90 470 340" fill="none" stroke="#06080e" stroke-width="40" stroke-linecap="round"/>
+<path d="M130 340 C120 90 480 90 470 340" fill="none" stroke="url(#dark)" stroke-width="30" stroke-linecap="round"/>
+<path d="M146 330 C140 112 460 112 454 330" fill="none" stroke="#fff" stroke-opacity=".18" stroke-width="3"/>
+<path d="M160 330 C156 150 444 150 440 330" fill="none" stroke="#0a0d15" stroke-width="22" stroke-linecap="round"/>
+<path d="M160 330 C156 150 444 150 440 330" fill="none" stroke="#3a2a55" stroke-width="3" stroke-opacity=".8" stroke-dasharray="2 6"/>
+<g filter="url(#b10)" opacity=".8"><ellipse cx="135" cy="385" rx="66" ry="92" fill="#32e6ff"/><ellipse cx="465" cy="385" rx="66" ry="92" fill="#a855f7"/></g>
+<ellipse cx="135" cy="385" rx="60" ry="88" fill="#05070c"/><ellipse cx="135" cy="385" rx="54" ry="82" fill="url(#metal)"/>
+<ellipse cx="135" cy="385" rx="54" ry="82" fill="none" stroke="#32e6ff" stroke-width="4"/>
+<ellipse cx="135" cy="385" rx="34" ry="52" fill="#0b0f19" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(135 385) scale(20)" fill="url(#rgb)"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g>
+<ellipse cx="122" cy="340" rx="12" ry="26" fill="#fff" opacity=".12" transform="rotate(10 122 340)"/>
+<ellipse cx="465" cy="385" rx="60" ry="88" fill="#05070c"/><ellipse cx="465" cy="385" rx="54" ry="82" fill="url(#metal)"/>
+<ellipse cx="465" cy="385" rx="54" ry="82" fill="none" stroke="#a855f7" stroke-width="4"/>
+<ellipse cx="465" cy="385" rx="34" ry="52" fill="#0b0f19" stroke="#fff" stroke-opacity=".12"/>
+<g transform="translate(465 385) scale(20)" fill="url(#rgb)"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g>
+<path d="M95 440 C95 520 170 535 215 505" fill="none" stroke="#06080e" stroke-width="12" stroke-linecap="round"/>
+<path d="M95 440 C95 520 170 535 215 505" fill="none" stroke="#2f3850" stroke-width="5" stroke-linecap="round"/>
+<ellipse cx="222" cy="502" rx="22" ry="14" fill="#0a0d15" stroke="#4a5577" stroke-width="2" transform="rotate(-25 222 502)"/>
+<circle cx="216" cy="500" r="4" fill="#32e6ff"/></svg>

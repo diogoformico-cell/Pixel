@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Luminária de mesa em formato de cubo pixel com luz neon">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#26324f"/><stop offset=".6" stop-color="#0f1527"/><stop offset="1" stop-color="#070a13"/></radialGradient>
+<radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".75"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6784"/><stop offset=".45" stop-color="#262e42"/><stop offset="1" stop-color="#10141f"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3347"/><stop offset="1" stop-color="#0d111b"/></linearGradient>
+<linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#32e6ff"/><stop offset=".5" stop-color="#6a7bff"/><stop offset="1" stop-color="#c13cff"/></linearGradient>
+<filter id="b4"><feGaussianBlur stdDeviation="4"/></filter><filter id="b10"><feGaussianBlur stdDeviation="10"/></filter><filter id="b20"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<ellipse cx="300" cy="500" rx="230" ry="38" fill="url(#floor)"/>
+
+<g filter="url(#b20)" opacity=".9"><circle cx="300" cy="300" r="170" fill="#32e6ff" opacity=".45"/><circle cx="330" cy="330" r="120" fill="#a855f7" opacity=".5"/></g>
+<polygon points="300,470 130,380 130,200 300,290" fill="#05070c"/>
+<polygon points="300,290 130,200 300,110 470,200" fill="#32e6ff" fill-opacity=".75" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+<polygon points="130,200 300,290 300,470 130,380" fill="#4f7bff" fill-opacity=".6" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+<polygon points="470,200 300,290 300,470 470,380" fill="#a855f7" fill-opacity=".6" stroke="#fff" stroke-opacity=".5" stroke-width="2"/>
+<g fill="#fff" opacity=".85"><polygon points="300,160 330,175 300,190 270,175"/><polygon points="240,190 270,205 240,220 210,205" opacity=".6"/><polygon points="360,190 390,205 360,220 330,205" opacity=".6"/><polygon points="300,215 330,230 300,245 270,230" opacity=".5"/></g>
+<g fill="#fff" opacity=".35"><polygon points="170,260 210,280 210,330 170,310"/><polygon points="430,260 390,280 390,330 430,310"/></g>
+<rect x="190" y="470" width="220" height="16" rx="8" fill="url(#metal)"/><rect x="190" y="470" width="220" height="5" rx="3" fill="#fff" opacity=".2"/></svg>

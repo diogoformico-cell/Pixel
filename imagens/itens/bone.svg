@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 600" role="img" aria-label="Boné snapback preto com estrela bordada">
+<defs>
+<radialGradient id="bg" cx=".5" cy=".38" r=".75"><stop offset="0" stop-color="#26324f"/><stop offset=".6" stop-color="#0f1527"/><stop offset="1" stop-color="#070a13"/></radialGradient>
+<radialGradient id="floor" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#000" stop-opacity=".75"/><stop offset="1" stop-color="#000" stop-opacity="0"/></radialGradient>
+<linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5a6784"/><stop offset=".45" stop-color="#262e42"/><stop offset="1" stop-color="#10141f"/></linearGradient>
+<linearGradient id="dark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3347"/><stop offset="1" stop-color="#0d111b"/></linearGradient>
+<linearGradient id="rgb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#32e6ff"/><stop offset=".5" stop-color="#6a7bff"/><stop offset="1" stop-color="#c13cff"/></linearGradient>
+<filter id="b4"><feGaussianBlur stdDeviation="4"/></filter><filter id="b10"><feGaussianBlur stdDeviation="10"/></filter><filter id="b20"><feGaussianBlur stdDeviation="20"/></filter>
+</defs>
+<rect width="600" height="600" fill="url(#bg)"/>
+<ellipse cx="300" cy="500" rx="230" ry="38" fill="url(#floor)"/>
+
+<path d="M120 380 C100 150 250 80 340 100 C440 120 500 230 490 380 Z" fill="#05070c" transform="translate(0 8)"/>
+<path d="M120 380 C100 150 250 80 340 100 C440 120 500 230 490 380 Z" fill="url(#dark)" stroke="#05070c" stroke-width="3"/>
+<g fill="none" stroke="#000" stroke-opacity=".5" stroke-width="2"><path d="M330 100 C300 180 300 300 305 380"/><path d="M230 120 C250 200 215 300 190 380"/><path d="M420 135 C420 220 400 300 440 380"/></g>
+<g fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2"><path d="M334 104 C305 180 305 300 310 380" stroke-dasharray="3 4"/></g>
+<path d="M150 150 C200 100 280 90 330 100 C260 130 190 200 150 330Z" fill="#fff" opacity=".07"/>
+<circle cx="338" cy="100" r="11" fill="#0b0e16" stroke="#4a5577"/>
+<g transform="translate(300 250)"><g filter="url(#b4)" opacity=".9"><g transform="scale(40)" fill="#32e6ff"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g></g><g transform="scale(36)" fill="url(#rgb)"><path d="M0 -1 L.27 -.27 L1 0 L.27 .27 L0 1 L-.27 .27 L-1 0 L-.27 -.27 Z"/></g></g>
+<path d="M95 380 C60 410 70 440 140 450 C280 470 450 460 530 420 C545 400 520 385 490 378 C400 392 220 395 120 380Z" fill="#05070c" transform="translate(0 6)"/>
+<path d="M95 380 C60 410 70 440 140 450 C280 470 450 460 530 420 C545 400 520 385 490 378 C400 392 220 395 120 380Z" fill="url(#metal)" stroke="#05070c" stroke-width="3"/>
+<path d="M110 395 C250 410 400 405 505 392" fill="none" stroke="#32e6ff" stroke-width="3" opacity=".8"/>
+<path d="M120 420 C250 440 400 435 505 410" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="3"/></svg>
